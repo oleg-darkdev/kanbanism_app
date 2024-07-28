@@ -55,10 +55,10 @@
 </div>
 
 
-<div class="nav" on:click={()=> showMenu = !showMenu}>
+<div class="nav h-24" on:click={()=> showMenu = !showMenu}>
 	<div class="logo-container">
     <!-- images/NG-Logo.png -->
-		<img src="" loading="lazy" alt="" class="image" />
+		<img src="/images/logo.svg" loading="lazy" alt="" class="logo" />
 	</div>
 	<div class="menu-btn">
     <img
@@ -79,6 +79,11 @@
 
 
 <style>
+  .logo {
+  width: 80%;
+  margin-left: 10%;
+}
+
 .nav {
   background-color: #ff9461;
   justify-content: space-between;
