@@ -5,7 +5,7 @@
 <div class="faq-card">
     <div class="flex w-full">
         <div class="div-block-32">
-        <img src="images/checkmark.png" loading="lazy" alt="" class="image-20">
+          <img src="{faq.img}" loading="lazy" alt="" class="image-20">
         </div>
         <div class="faq-container">
         <div class="holiday-text">{faq.q}</div>
@@ -43,6 +43,10 @@
   display: flex;
 }
 
+.image-20 {
+  width: 4vw;
+}
+
 @media screen and (max-width: 479px) {
   .div-block-32 {
     width: 16.66vw;
@@ -52,5 +56,10 @@
     width: 100%;
     height: 16.66vw;
   }
+
+  .image-20 {
+    width: 6vw;
+  }
+
 }
 </style>
