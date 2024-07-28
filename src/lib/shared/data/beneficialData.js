@@ -1,10 +1,9 @@
 const data = [
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  'Эстимирование и приоритизация задач',
+  'Узкие горлышки и ограничения на одновременное количество задач',
+  'Построение и понимание Cumulative Flow Diagram',
+  'Построение и понимание Run Chart',
+  'Построение и понимание Lead Time Distribution Chart',
 ]
 
 
