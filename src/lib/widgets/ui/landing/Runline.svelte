@@ -8,7 +8,9 @@
 <section class=" section--runline py-6">
   <div class="runtext__content">
     <div class="runtext__block">
-      <div class="runtext__txt">{#each tags as tag} <span>{tag}</span> {/each}</div>
+      <!-- {#each tags as tag} <span>{tag}</span> {/each} -->
+      <!-- 💚 kanban -->
+      <div class="runtext__txt"><span>Uruchom swój kanban</span> </div>
       <!-- <img src="images/61af8ba2bc3b4b1cc88768d7_star_green.png" width="25" alt="" class="runtext__img-star"> -->
     </div>
   </div>
