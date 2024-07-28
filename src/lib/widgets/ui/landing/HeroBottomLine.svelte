@@ -12,7 +12,14 @@
       </div>
       <div class="grid-container"></div>
       <div class="div-block-35">
-        <ShareBtn />
+        <a href="#about" class="share-button-container w-inline-block">
+          <div class="div-block-20">
+            <div class="cta-text">More</div>
+            <div>
+                <img src="images/share-icn.svg" loading="eager" alt="">
+            </div>
+          </div>
+        </a>
       </div>
   </div>
 </div>
