@@ -1,11 +1,11 @@
 <section class="section-5-container">
     <div class="section-5-wrapper">
-      <div class="section-5-top">
+      <div class="section-5-top flex">
         <div class="col-1-icon">
           <div class="w-layout-grid day-grid">
             <img src="images/heart-Icn.png" loading="lazy"  alt="">
             <div class="shape-orange-square">
-              <img src="images/blueSquare.png" loading="lazy" width="121" alt="" class="image-19">
+              <img src="images/blueSquare.png" loading="lazy" alt="" class="w-full">
             </div>
           </div>
         </div>
@@ -19,7 +19,7 @@
       <div class="div-block-23">
         <div>
           <div class="col-3-days-worked">
-            <div  class="days-worked-stat-container">
+            <div  class="">
               <div class="large-stat-text days">0000</div>
               <div class="label-top">
                 <span class="text-span-9">Lorem Ipsum</span>
@@ -49,17 +49,80 @@
         </div>
       </div>
     </div>
-    <div id="holidaysParentHolder" class="section-5-holidays-wrapper">
+    <div class="section-5-holidays-wrapper">
       <div class="col-2-blank">
-        <img src="images/65ba6362203ce87e9a201c48_Large-Purple-Triangle.png" loading="lazy" sizes="33vw" srcset="images/65ba6362203ce87e9a201c48_Large-Purple-Triangle-p-500.png 500w, images/65ba6362203ce87e9a201c48_Large-Purple-Triangle-p-800.png 800w, images/65ba6362203ce87e9a201c48_Large-Purple-Triangle.png 847w" alt="">
+        <img src="images/large-Purple-Triangle.png" loading="lazy" sizes="33vw"  alt="">
       </div>
       <div class="col-2-holidays-worked">
-        <div class="days-worked-stat-container">
-          <div id="Holidays-worked" class="large-stat-text centered">0000</div>
+        <div class="">
+          <div  class="large-stat-text centered">0000</div>
           <div class="label-top">
-            <span id="HolidaysTextID" class="text-span-10">Lorem </span> Ipsum
+            <span  class="text-span-10">Lorem </span> Ipsum
           </div>
         </div>
       </div>
     </div>
 </section>
+
+
+<style>
+
+.col-2-holidays-worked {
+  width: 33.33vw;
+  height: 33.33vw;
+  background-color: #fff;
+  border: 0.5px solid #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.section-5-holidays-wrapper {
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: 16.66vw;
+  display: flex;
+}
+
+  .section-5-container {
+  z-index: 4;
+  position: relative;
+}
+
+.section-5-wrapper {
+  z-index: 5;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+@media screen and (max-width: 479px) {
+  .section-5-wrapper {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+    .section-5-top {
+    width: 100%;
+    align-items: flex-end;
+    display: flex;
+  }
+  .div-block-23 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/1;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+  }
+  .col-2-holidays-worked {
+    width: 66.66vw;
+    height: 66.66vw;
+  }
+
+  .section-5-holidays-wrapper {
+    flex-direction: row;
+    margin-left: auto;
+  }
+}
+
+
+</style>

@@ -2168,33 +2168,9 @@ img {
   font-weight: 300;
   line-height: 1.5em;
 }
-.section-4-wrapper {
-  background-color: #1a3541;
-  justify-content: space-between;
-  padding-top: 8.33vw;
-  padding-right: 8.33vw;
-  display: flex;
-}
-.full-moon-image-container {
-  width: 41.66vw;
-  height: 41.66vw;
-  background-color: #1a3541;
-  border: 1px solid #e8e5e0;
-  justify-content: center;
-  align-items: center;
-  margin-left: 16.66vw;
-  display: flex;
-  position: relative;
-  overflow: hidden;
-}
-.calendar {
-  z-index: 2;
-  width: 25vw;
-  align-self: baseline;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 8.33vw;
-}
+
+
+
 .image-4 {
   width: 25vw;
   position: absolute;
@@ -2221,20 +2197,8 @@ img {
   width: 33.33vw;
   margin-left: auto;
 }
-.div-block-11 {
-  background-color: #1a3541;
-  justify-content: flex-start;
-  align-items: flex-end;
-  display: flex;
-  position: relative;
-  overflow: visible;
-}
-.div-block-12 {
-  flex-direction: column;
-  align-items: flex-end;
-  padding-top: 4vh;
-  display: flex;
-}
+
+
 .day-grid {
   width: 16.66vw;
   height: 33.33vw;
@@ -2261,13 +2225,7 @@ img {
 .col-1-icon {
   width: 16.66vw;
 }
-.section-5-wrapper {
-  z-index: 5;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: flex;
-  position: relative;
-}
+
 .col-3-days-worked {
   width: 33.33vw;
   height: 33.33vw;
@@ -2337,10 +2295,7 @@ img {
 .image-6 {
   width: 2vw;
 }
-.sun-element {
-  width: 100%;
-  position: relative;
-}
+
 .div-block-9-copy {
   height: auto;
 }
@@ -2698,28 +2653,13 @@ img {
 .section-5-top {
   display: flex;
 }
-.col-3-days-worked-copy {
+  .col-3-days-worked-copy {
   width: 33.33vw;
   height: 33.33vw;
   background-color: #fff;
   border: 1px solid #000;
   justify-content: center;
   align-items: center;
-  display: flex;
-}
-.col-2-holidays-worked {
-  width: 33.33vw;
-  height: 33.33vw;
-  background-color: #fff;
-  border: 0.5px solid #000;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.section-5-holidays-wrapper {
-  justify-content: flex-start;
-  align-items: stretch;
-  margin-left: 16.66vw;
   display: flex;
 }
 .section-8-wrapper {
@@ -2766,19 +2706,7 @@ img {
   margin-left: auto;
   position: absolute;
 }
-.image-15 {
-  z-index: 4;
-  width: 16.66vw;
-  perspective-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  align-self: flex-end;
-  margin-left: 8.33vw;
-  position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-}
+
 .div-block-29 {
   flex-direction: row;
   justify-content: center;
@@ -2788,10 +2716,7 @@ img {
   position: relative;
   overflow: visible;
 }
-.section-5-container {
-  z-index: 4;
-  position: relative;
-}
+
 .image-16 {
   width: 16.66vw;
   align-self: flex-start;
@@ -3712,21 +3637,8 @@ img {
   .section-3-wrapper {
     padding: 14vh 8.33vw 15vh;
   }
-  .section-4-wrapper {
-    flex-direction: column-reverse;
-    padding-top: 6vh;
-    padding-bottom: 10vh;
-    padding-left: 8.33vw;
-  }
-  .full-moon-image-container {
-    width: 83.34vw;
-    height: auto;
-  }
-  .calendar {
-    width: 83.34vw;
-    position: relative;
-    top: auto;
-  }
+
+
   .image-4 {
     width: 83.34vw;
     position: relative;
@@ -3742,13 +3654,7 @@ img {
     width: 66.66vw;
     margin-left: 33.32vw;
   }
-  .div-block-12 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: 8.33vw;
-    padding-top: 10vh;
-    padding-bottom: 6vh;
-  }
+
   .day-grid {
     width: 100%;
     height: auto;
@@ -3768,10 +3674,7 @@ img {
     align-items: flex-end;
     display: flex;
   }
-  .section-5-wrapper {
-    flex-direction: column;
-    justify-content: flex-end;
-  }
+
   .col-3-days-worked {
     width: 33.33vw;
     height: auto;
@@ -3896,38 +3799,14 @@ img {
     font-family: Recifedisplay, sans-serif;
     font-weight: 700;
   }
-  .div-block-22 {
-    position: absolute;
-    top: 11%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
-  }
-  .section-5-top {
-    width: 100%;
-    align-items: flex-end;
-    display: flex;
-  }
-  .div-block-23 {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 2/1;
-    justify-content: space-between;
-    align-items: flex-start;
-    display: flex;
-  }
+
+
   .col-3-days-worked-copy {
     width: 50vw;
     height: 50vw;
   }
-  .col-2-holidays-worked {
-    width: 66.66vw;
-    height: 66.66vw;
-  }
-  .section-5-holidays-wrapper {
-    flex-direction: row;
-    margin-left: auto;
-  }
+
+
   .section-8-wrapper {
     flex-direction: column;
   }
