@@ -1,7 +1,7 @@
 <section class="footer__get group">
   <a  href="/" class="footer__get-link w-inline-block">
     <div class="content">
-      <h2 class="heading--size-50 mod--footer ">Ready to get started? <span class="heading2__arrow"></span>
+      <h2 class="heading--size-50 mod--footer ">Gotowy do rozpoczęcia kanban? <span class="heading2__arrow"></span>
       </h2>
     </div>
   </a>
