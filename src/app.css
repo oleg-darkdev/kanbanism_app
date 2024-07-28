@@ -2199,23 +2199,7 @@ img {
   width: 25vw;
   position: absolute;
 }
-.text-block-2 {
-  text-align: center;
-  padding-top: 5vw;
-  font-family: Recifedisplay, sans-serif;
-  position: relative;
-}
-.text-block-3 {
-  z-index: 2;
-  color: #fff;
-  text-align: center;
-  padding-top: 6vw;
-  padding-bottom: 2vw;
-  font-family: Fellix, sans-serif;
-  font-size: 4em;
-  font-weight: 700;
-  position: relative;
-}
+
 .text-subtext {
   color: #fff;
   text-align: center;
@@ -2441,20 +2425,7 @@ img {
 .image-8 {
   width: 8.33vw;
 }
-.section-10-membersince {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10vh;
-  display: flex;
-}
-.footer {
-  height: auto;
-  background-color: #ff9461;
-  padding-top: 4vh;
-  padding-left: 8vw;
-  padding-right: 8vw;
-}
+
 .image-9,
 .image-10 {
   width: 3vw;
@@ -2762,21 +2733,11 @@ img {
 .image-14 {
   display: inline;
 }
-.div-block-26 {
-  width: 15vw;
-}
+
 .footer-logo {
   width: 100%;
 }
-.div-block-27 {
-  width: 100%;
-  border-top: 0.5px solid #1a3541;
-  border-bottom: 0.5px #000;
-  justify-content: space-between;
-  padding-top: 4vh;
-  padding-bottom: 2.5vh;
-  display: flex;
-}
+
 .small-text {
   color: #1a3541;
   text-align: center;
@@ -2799,9 +2760,7 @@ img {
 .text-span-5 {
   font-weight: 700;
 }
-.footer-row-1 {
-  padding-bottom: 4vh;
-}
+
 .image-5-copy {
   width: 33.33vw;
   margin-left: auto;
@@ -2954,15 +2913,8 @@ img {
   right: 0%;
   transform: rotate(90deg);
 }
-.social-containter {
-  justify-content: flex-end;
-  padding-left: 2vw;
-  display: flex;
-}
-.social-icon {
-  width: 2vw;
-  margin-left: 2vw;
-}
+
+
 .large-body-block-carousel {
   text-align: center;
   margin-bottom: 2.5vh;
@@ -3152,9 +3104,7 @@ img {
 }
 
 
-.image-20 {
-  width: 2vw;
-}
+
 
 .prelaoder-wrapper {
   z-index: 1000;
@@ -3462,14 +3412,7 @@ img {
   .large-body-block {
     font-size: 2em;
   }
-  .text-block-2 {
-    padding-top: 4vw;
-  }
-  .text-block-3 {
-    padding-top: 4vw;
-    padding-bottom: 0;
-    font-size: 2em;
-  }
+
   .text-subtext {
     padding-left: 1.5vw;
     padding-right: 1.5vw;
@@ -3589,12 +3532,7 @@ img {
     padding-left: 16.66vw;
     padding-right: 16.66vw;
   }
-  .text-block-2 {
-    padding-top: 4vw;
-  }
-  .text-block-3 {
-    line-height: 0.4em;
-  }
+
   .section-6-wrapper,
   .section-9-wrapper {
     padding-left: 16.66vw;
@@ -3645,9 +3583,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  .social-icon {
-    width: 5vw;
-  }
+
   .prelaoder-wrapper {
     display: none;
   }
@@ -3795,13 +3731,7 @@ img {
     width: 83.34vw;
     position: relative;
   }
-  .text-block-2 {
-    padding-bottom: 25%;
-    font-size: 1.2em;
-  }
-  .text-block-3 {
-    font-size: 3.4em;
-  }
+
   .text-subtext {
     padding-left: 8vw;
     padding-right: 8vw;
@@ -4005,10 +3935,7 @@ img {
   .div-block-25 {
     display: flex;
   }
-  .div-block-26 {
-    width: 25vw;
-    align-self: flex-start;
-  }
+
   .div-block-27 {
     align-items: center;
   }
@@ -4054,14 +3981,8 @@ img {
     margin-top: -16.66vw;
     margin-left: -16.66vw;
   }
-  .social-containter {
-    margin-bottom: 2.5vh;
-  }
-  .social-icon {
-    width: 7vw;
-    margin-left: 2.5vw;
-    margin-right: 1vw;
-  }
+
+
   .slide-container {
     height: auto;
     padding-left: 8.33vw;
@@ -4152,10 +4073,6 @@ img {
   }
   .slide-5 {
     height: 70vh;
-  }
-
-  .image-20 {
-    width: 6vw;
   }
 
   .prelaoder-wrapper {
@@ -4371,13 +4288,13 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-BlackItalic.woff2")
+  src: url("/fonts/Fellix-BlackItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-BlackItalic.woff")
+    url("/fonts/Fellix-BlackItalic.woff")
       format("woff"),
-    url("fonts/Fellix-BlackItalic.ttf")
+    url("/fonts/Fellix-BlackItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-BlackItalic.otf")
+    url("/fonts/Fellix-BlackItalic.otf")
       format("opentype");
   font-weight: 900;
   font-style: italic;
@@ -4386,18 +4303,18 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-Bold.woff2")
+  src: url("/fonts/Fellix-Bold.woff2")
       format("woff2"),
-    url("fonts/Fellix-ExtraBold.woff2")
+    url("/fonts/Fellix-ExtraBold.woff2")
       format("woff2"),
-    url("fonts/Fellix-ExtraBold.woff")
+    url("/fonts/Fellix-ExtraBold.woff")
       format("woff"),
-    url("fonts/Fellix-Bold.woff") format("woff"),
-    url("fonts/Fellix-ExtraBold.ttf")
+    url("/fonts/Fellix-Bold.woff") format("woff"),
+    url("/fonts/Fellix-ExtraBold.ttf")
       format("truetype"),
-    url("fonts/Fellix-Bold.ttf") format("truetype"),
-    url("fonts/Fellix-Bold.otf") format("opentype"),
-    url("fonts/Fellix-ExtraBold.otf")
+    url("/fonts/Fellix-Bold.ttf") format("truetype"),
+    url("/fonts/Fellix-Bold.otf") format("opentype"),
+    url("/fonts/Fellix-ExtraBold.otf")
       format("opentype");
   font-weight: 700;
   font-style: normal;
@@ -4406,13 +4323,13 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-MediumItalic.woff2")
+  src: url("/fonts/Fellix-MediumItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-MediumItalic.woff")
+    url("/fonts/Fellix-MediumItalic.woff")
       format("woff"),
-    url("fonts/Fellix-MediumItalic.ttf")
+    url("/fonts/Fellix-MediumItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-MediumItalic.otf")
+    url("/fonts/Fellix-MediumItalic.otf")
       format("opentype");
   font-weight: 500;
   font-style: italic;
@@ -4421,12 +4338,12 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-SemiBold.woff2")
+  src: url("/fonts/Fellix-SemiBold.woff2")
       format("woff2"),
-    url("fonts/Fellix-SemiBold.woff") format("woff"),
-    url("fonts/Fellix-SemiBold.ttf")
+    url("/fonts/Fellix-SemiBold.woff") format("woff"),
+    url("/fonts/Fellix-SemiBold.ttf")
       format("truetype"),
-    url("fonts/Fellix-SemiBold.otf")
+    url("/fonts/Fellix-SemiBold.otf")
       format("opentype");
   font-weight: 600;
   font-style: normal;
@@ -4435,12 +4352,12 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-Medium.woff2")
+  src: url("/fonts/Fellix-Medium.woff2")
       format("woff2"),
-    url("fonts/Fellix-Medium.woff") format("woff"),
-    url("fonts/Fellix-Medium.ttf")
+    url("/fonts/Fellix-Medium.woff") format("woff"),
+    url("/fonts/Fellix-Medium.ttf")
       format("truetype"),
-    url("fonts/Fellix-Medium.otf")
+    url("/fonts/Fellix-Medium.otf")
       format("opentype");
   font-weight: 500;
   font-style: normal;
@@ -4449,13 +4366,13 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-SemiBoldItalic.woff2")
+  src: url("/fonts/Fellix-SemiBoldItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-SemiBoldItalic.woff")
+    url("/fonts/Fellix-SemiBoldItalic.woff")
       format("woff"),
-    url("fonts/Fellix-SemiBoldItalic.ttf")
+    url("/fonts/Fellix-SemiBoldItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-SemiBoldItalic.otf")
+    url("/fonts/Fellix-SemiBoldItalic.otf")
       format("opentype");
   font-weight: 600;
   font-style: italic;
@@ -4464,12 +4381,12 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-Regular.woff2")
+  src: url("/fonts/Fellix-Regular.woff2")
       format("woff2"),
-    url("fonts/Fellix-Regular.woff") format("woff"),
-    url("fonts/Fellix-Regular.ttf")
+    url("/fonts/Fellix-Regular.woff") format("woff"),
+    url("/fonts/Fellix-Regular.ttf")
       format("truetype"),
-    url("fonts/Fellix-Regular.otf")
+    url("/fonts/Fellix-Regular.otf")
       format("opentype");
   font-weight: 400;
   font-style: normal;
@@ -4478,13 +4395,13 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-LightItalic.woff2")
+  src: url("/fonts/Fellix-LightItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-LightItalic.woff")
+    url("/fonts/Fellix-LightItalic.woff")
       format("woff"),
-    url("fonts/Fellix-LightItalic.ttf")
+    url("/fonts/Fellix-LightItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-LightItalic.otf")
+    url("/fonts/Fellix-LightItalic.otf")
       format("opentype");
   font-weight: 300;
   font-style: italic;
@@ -4493,13 +4410,13 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-RegularItalic.woff2")
+  src: url("/fonts/Fellix-RegularItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-RegularItalic.woff")
+    url("/fonts/Fellix-RegularItalic.woff")
       format("woff"),
-    url("fonts/Fellix-RegularItalic.ttf")
+    url("/fonts/Fellix-RegularItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-RegularItalic.otf")
+    url("/fonts/Fellix-RegularItalic.otf")
       format("opentype");
   font-weight: 400;
   font-style: italic;
@@ -4508,11 +4425,11 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-Black.woff2")
+  src: url("/fonts/Fellix-Black.woff2")
       format("woff2"),
-    url("fonts/Fellix-Black.woff") format("woff"),
-    url("fonts/Fellix-Black.ttf") format("truetype"),
-    url("fonts/Fellix-Black.otf") format("opentype");
+    url("/fonts/Fellix-Black.woff") format("woff"),
+    url("/fonts/Fellix-Black.ttf") format("truetype"),
+    url("/fonts/Fellix-Black.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -4520,21 +4437,21 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-BoldItalic.woff2")
+  src: url("/fonts/Fellix-BoldItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-ExtraBoldItalic.woff2")
+    url("/fonts/Fellix-ExtraBoldItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-BoldItalic.woff")
+    url("/fonts/Fellix-BoldItalic.woff")
       format("woff"),
-    url("fonts/Fellix-ExtraBoldItalic.woff")
+    url("/fonts/Fellix-ExtraBoldItalic.woff")
       format("woff"),
-    url("fonts/Fellix-BoldItalic.ttf")
+    url("/fonts/Fellix-BoldItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-ExtraBoldItalic.ttf")
+    url("/fonts/Fellix-ExtraBoldItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-BoldItalic.otf")
+    url("/fonts/Fellix-BoldItalic.otf")
       format("opentype"),
-    url("fonts/Fellix-ExtraBoldItalic.otf")
+    url("/fonts/Fellix-ExtraBoldItalic.otf")
       format("opentype");
   font-weight: 700;
   font-style: italic;
@@ -4543,11 +4460,11 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/65ba6362203ce87e9a201c23_Fellix-Light.woff2")
+  src: url("/fonts/Fellix-Light.woff2")
       format("woff2"),
-    url("fonts/Fellix-Light.woff") format("woff"),
-    url("fonts/Fellix-Light.ttf") format("truetype"),
-    url("fonts/Fellix-Light.otf") format("opentype");
+    url("/fonts/Fellix-Light.woff") format("woff"),
+    url("/fonts/Fellix-Light.ttf") format("truetype"),
+    url("/fonts/Fellix-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -4555,13 +4472,13 @@ img {
 @font-face
 {
   font-family: "Fellix";
-  src: url("fonts/Fellix-ThinItalic.woff2")
+  src: url("/fonts/Fellix-ThinItalic.woff2")
       format("woff2"),
-    url("fonts/Fellix-ThinItalic.woff")
+    url("/fonts/Fellix-ThinItalic.woff")
       format("woff"),
-    url("fonts/Fellix-ThinItalic.ttf")
+    url("/fonts/Fellix-ThinItalic.ttf")
       format("truetype"),
-    url("fonts/Fellix-ThinItalic.otf")
+    url("/fonts/Fellix-ThinItalic.otf")
       format("opentype");
   font-weight: 100;
   font-style: italic;
@@ -4570,11 +4487,11 @@ img {
 
 @font-face {
   font-family: "Fellix";
-  src: url("fonts/Fellix-Thin.woff2")
+  src: url("/fonts/Fellix-Thin.woff2")
       format("woff2"),
-    url("fonts/Fellix-Thin.woff") format("woff"),
-    url("fonts/Fellix-Thin.ttf") format("truetype"),
-    url("fonts/Fellix-Thin.otf") format("opentype");
+    url("/fonts/Fellix-Thin.woff") format("woff"),
+    url("/fonts/Fellix-Thin.ttf") format("truetype"),
+    url("/fonts/Fellix-Thin.otf") format("opentype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -4582,7 +4499,7 @@ img {
 
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-Light.otf")
+  src: url("/fonts/RecifeDisplay-Light.otf")
     format("opentype");
   font-weight: 300;
   font-style: normal;
@@ -4591,7 +4508,7 @@ img {
 
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-Bold.otf")
+  src: url("/fonts/RecifeDisplay-Bold.otf")
     format("opentype");
   font-weight: 700;
   font-style: normal;
@@ -4600,7 +4517,7 @@ img {
 
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-MediumItalic.otf")
+  src: url("/fonts/RecifeDisplay-MediumItalic.otf")
     format("opentype");
   font-weight: 500;
   font-style: italic;
@@ -4609,7 +4526,7 @@ img {
 
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-Medium.otf")
+  src: url("/fonts/RecifeDisplay-Medium.otf")
     format("opentype");
   font-weight: 500;
   font-style: normal;
@@ -4617,7 +4534,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-Black.otf")
+  src: url("/fonts/RecifeDisplay-Black.otf")
     format("opentype");
   font-weight: 900;
   font-style: normal;
@@ -4625,9 +4542,9 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-BookItalic.otf")
+  src: url("/fonts/RecifeDisplay-BookItalic.otf")
       format("opentype"),
-    url("fonts/RecifeDisplay-RegularItalic.otf")
+    url("/fonts/RecifeDisplay-RegularItalic.otf")
       format("opentype");
   font-weight: 400;
   font-style: italic;
@@ -4635,7 +4552,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-BlackItalic.otf")
+  src: url("/fonts/RecifeDisplay-BlackItalic.otf")
     format("opentype");
   font-weight: 900;
   font-style: italic;
@@ -4643,7 +4560,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-SemiBoldItalic.otf")
+  src: url("/fonts/RecifeDisplay-SemiBoldItalic.otf")
     format("opentype");
   font-weight: 600;
   font-style: italic;
@@ -4651,7 +4568,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-BoldItalic.otf")
+  src: url("/fonts/RecifeDisplay-BoldItalic.otf")
     format("opentype");
   font-weight: 700;
   font-style: italic;
@@ -4659,7 +4576,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-Regular.otf")
+  src: url("/fonts/RecifeDisplay-Regular.otf")
     format("opentype");
   font-weight: 400;
   font-style: normal;
@@ -4667,7 +4584,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay Book";
-  src: url("fonts/RecifeDisplay-Book.otf")
+  src: url("/fonts/RecifeDisplay-Book.otf")
     format("opentype");
   font-weight: 400;
   font-style: normal;
@@ -4675,7 +4592,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-SemiBold.otf")
+  src: url("/fonts/RecifeDisplay-SemiBold.otf")
     format("opentype");
   font-weight: 600;
   font-style: normal;
@@ -4683,7 +4600,7 @@ img {
 }
 @font-face {
   font-family: "Recifedisplay";
-  src: url("fonts/RecifeDisplay-LightItalic.otf")
+  src: url("/fonts/RecifeDisplay-LightItalic.otf")
     format("opentype");
   font-weight: 300;
   font-style: italic;
